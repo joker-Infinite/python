@@ -15,11 +15,11 @@ if num < 5:
 else:
     print('false')
 
-print x
-print y
+print (x)
+print (y)
 
-print x,
-print y,
+print (x),
+print (y),
 
 if i < 0:
     print('<')
@@ -28,9 +28,9 @@ elif i == 0:
 else:
     print('>')
 
-print str[1:5]
-print str[0]
-print str[1:]
-print (str + ',') * 8
-print str + str1
-print tuple + tuple1
+print (str[1:5])
+print (str[0])
+print (str[1:])
+print ((str + ',') * 8)
+print (str + str1)
+print (tuple + tuple1)
