@@ -5,12 +5,12 @@ if __name__ == '__main__':
     i = -1
     x = 'A'
     y = "B"
-    str = 'hellowWorld'
+    str = 'hello World'
     str1 = 'myWorld'
     tuple = ('a', 'ab', 'abc', 'abcd')
     tuple1 = ('a', 'b', 'c', 'd')
 
-if (num < 5):
+if num < 5:
     print('hellow world!')
 else:
     print('false')
@@ -21,9 +21,9 @@ print y
 print x,
 print y,
 
-if (i < 0):
+if i < 0:
     print('<')
-elif (i == 0):
+elif i == 0:
     print('=')
 else:
     print('>')
