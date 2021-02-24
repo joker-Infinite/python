@@ -42,3 +42,36 @@ if __name__ == '__main__':
 
     for index in range(len(letter)):
         print(letter[index], index)
+
+    # break语句
+    for str in 'python':
+        if str == 'h':
+            break
+        print('当前字母', str)
+
+    num = 0
+    while num < 10:
+        print('当前值', num)
+        num += 1
+        if num == 10:
+            break
+
+    # continue语句
+    for st in 'python':
+        if st == 'h':
+            continue
+        print(st)
+
+    nv = 0
+    while nv < 10:
+        print('当前值', nv)
+        nv += 1
+        if nv == 10:
+            continue
+
+    nm = 0
+    while nm < 10:
+        nm += 1
+        if nm % 2 == 0:
+            continue
+        print(nm, '是奇数')
