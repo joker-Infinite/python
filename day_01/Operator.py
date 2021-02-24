@@ -59,30 +59,30 @@ if __name__ == '__main__':
     '''
     小于
     '''
-    print (a < b)
+    print(a < b)
     '''
     大于等于
     '''
-    print (a >= b)
+    print(a >= b)
     '''
     小于等于
     '''
-    print (a <= b)
+    print(a <= b)
 
     # 赋值运算符
-    print ('赋值运算符')
+    print('赋值运算符')
     '''
     简单赋值
     '''
     a = b
-    print (a)
+    print(a)
     '''
     加法赋值
     '''
     a += b
-    print (a)
+    print(a)
     '''
     减法赋值
     '''
     a -= b
-    print (a)
+    print(a)
