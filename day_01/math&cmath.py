@@ -68,3 +68,19 @@ if __name__ == '__main__':
     randrange 返回指定区间以基数递增的随机数
     '''
     print(random.randrange(0, 10, 5))
+    '''
+    random 随机生成一个实数，它在[0,1]之间
+    '''
+    print(random.random())
+    '''
+    shuffle 将序列的所有元素随机排序
+    '''
+    ll = [0, 6, 4, 2, 7]
+    random.shuffle(ll)
+    print(ll)
+    random.shuffle(ll)
+    print(ll)
+    '''
+    uniform 随机生成参数一与参数二之间的实数(浮点数)
+    '''
+    print(random.uniform(1, 5))
