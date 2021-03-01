@@ -9,3 +9,4 @@ if __name__ == '__main__':
     data = cursor.fetchone()
     print(data)
     db.close()
+
